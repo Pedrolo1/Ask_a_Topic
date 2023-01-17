@@ -1,6 +1,6 @@
 import gradio as gr
-from querying import query_document
-from preprocess import pipeline_transcripts
+from src.querying import query_document
+from src.preprocess import pipeline_transcripts
 from argparse import ArgumentParser
 
 # create the argument parser
